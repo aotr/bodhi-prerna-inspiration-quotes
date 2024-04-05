@@ -1,0 +1,43 @@
+{
+    "name": "bodhi-prerna/inspiration-quotes",
+    "description": "A Laravel package that provides an array of inspirational quotes in Bengali.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BodhiPrerna\\InspirationQuotes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BodhiPrerna\\InspirationQuotes\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BodhiPrerna\\InspirationQuotes\\InspirationQuotesServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Animesh Chakraborty",
+            "email": "animesh.aotr@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "animesh.aotr@gmail.com",
+        "issues": "https://github.com/aotr/bodhi-prerna-inspiration-quotes/issues"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
