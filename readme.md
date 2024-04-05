@@ -7,7 +7,7 @@ A Laravel package that provides an array of inspirational quotes in Bengali, sui
 To install this package, run the following command in the terminal in your Laravel project directory:
 
 ```bash
-composer require aotr/bodhi-prerna-inspiration-quotes
+composer require bodhi-prerna/inspiration-quotes
 ```
 
 ## Usage
